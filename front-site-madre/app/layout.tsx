@@ -31,10 +31,10 @@ export default function RootLayout({
         )}
       >
         <Providers>
-          <div className="relative flex flex-col h-scree justify-center  items-center">
+          <div className="relative flex flex-col h-scree justify-center items-center">
             <Sociais />
             <Navbar />
-            <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+            <main className="w-screen mx-auto pt-8 px-6 flex-grow">
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3"></footer>

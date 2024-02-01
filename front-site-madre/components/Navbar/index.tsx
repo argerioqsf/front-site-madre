@@ -32,13 +32,10 @@ import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" position="sticky">
+    <NextUINavbar height="85px" maxWidth="xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink
-            className="flex justify-center items-center gap-1 pt-4"
-            href="/"
-          >
+          <NextLink className="flex justify-center items-center" href="/">
             <Image
               as={NextImage}
               width={215}
