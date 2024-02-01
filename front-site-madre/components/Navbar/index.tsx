@@ -48,7 +48,10 @@ export const Navbar = () => {
             />
           </NextLink>
         </NavbarBrand>
-        <ul className="hidden lg:flex gap-4 justify-start ml-2">
+      </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex" justify="end">
+        <ul className="hidden lg:flex gap-4 justify-end ml-2 w-full">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
@@ -64,22 +67,15 @@ export const Navbar = () => {
             </NavbarItem>
           ))}
         </ul>
-      </NavbarContent>
-
-      <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
-        justify="end"
-      >
         <NavbarItem className="hidden md:flex">
           <Button
             isExternal
             as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
+            className="text-sm font-normal text-default-600 border-blue-950	 border-2"
             href={siteConfig.links.sponsor}
-            startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"
           >
-            Sponsor
+            PRÉ MATRICULA
           </Button>
         </NavbarItem>
       </NavbarContent>
@@ -89,7 +85,7 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarMenu>
-        <div className="mx-4 mt-2 flex flex-col gap-2">
+        <div className="mx-4 mt-24 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link

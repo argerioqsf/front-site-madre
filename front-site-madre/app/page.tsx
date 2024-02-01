@@ -22,6 +22,62 @@ export default function Home() {
           </span>
         </Snippet>
       </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
     </section>
   );
 }
