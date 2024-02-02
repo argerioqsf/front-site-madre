@@ -16,19 +16,9 @@ import NextImage from "next/image";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/siteConfig";
 import NextLink from "next/link";
 import clsx from "clsx";
-
-import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
-  SearchIcon,
-} from "@/components/icons";
-
-import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
   return (
@@ -69,7 +59,7 @@ export const Navbar = () => {
             isExternal
             as={Link}
             className="text-sm font-normal text-default-600 border-blue-950	 border-2"
-            href={siteConfig.links.sponsor}
+            href="#"
             variant="flat"
           >
             PRÉ MATRICULA

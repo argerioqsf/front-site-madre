@@ -1,12 +1,13 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/siteConfig";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/Navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import Sociais from "@/components/Sociais";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
@@ -34,10 +35,12 @@ export default function RootLayout({
           <div className="relative flex flex-col h-scree justify-center items-center">
             <Sociais />
             <Navbar />
-            <main className="w-screen mx-auto pt-8 px-6 flex-grow">
+            <main className="w-screen mx-auto pt-4 px-0 md:pt-8 md:px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3"></footer>
+            <footer className="w-full flex items-center justify-center">
+              <Footer />
+            </footer>
           </div>
         </Providers>
       </body>
