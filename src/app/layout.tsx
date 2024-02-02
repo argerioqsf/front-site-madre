@@ -35,7 +35,7 @@ export default function RootLayout({
           <div className="relative flex flex-col h-scree justify-center items-center">
             <Sociais />
             <Navbar />
-            <main className="w-screen mx-auto pt-4 px-0 md:pt-8 md:px-6 flex-grow">
+            <main className="w-screen mx-auto pt-4 md:pt-8 flex-grow">
               {children}
             </main>
             <footer className="w-full flex items-center justify-center">

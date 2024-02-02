@@ -11,7 +11,7 @@ const HomeSection2 = () => {
   const isVisible1 = useIsVisible(ref1);
   return (
     <section
-      className={`flex transition-opacity ease-in duration-1000 flex-col items-center justify-start w-full pt-16 opacity-0 ${
+      className={`flex bg-[#f7f7f7] transition-opacity ease-in duration-1000 flex-col items-center justify-start w-full pt-16 pb-16 opacity-0 ${
         isVisible1 && "animate-fadeUp"
       }`}
     >
