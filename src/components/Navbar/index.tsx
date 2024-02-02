@@ -16,7 +16,7 @@ import NextImage from "next/image";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
-import { siteConfig } from "@/config/siteConfig";
+import { siteConfig } from "@/src/config/siteConfig";
 import NextLink from "next/link";
 import clsx from "clsx";
 

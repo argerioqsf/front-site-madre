@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useRef } from "react";
 import { useIsVisible } from "@/hooks/useIsVisible";
 
-export default function Home() {
+const HomeSection = () => {
   const ref1 = useRef(null);
   const isVisible1 = useIsVisible(ref1);
   return (
@@ -85,3 +85,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default HomeSection
