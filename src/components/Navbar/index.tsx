@@ -8,15 +8,13 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
 import { Image } from "@nextui-org/image";
 import NextImage from "next/image";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
-import { siteConfig } from "@/src/config/siteConfig";
+import { siteConfig } from "@/config/siteConfig";
 import NextLink from "next/link";
 import clsx from "clsx";
 
