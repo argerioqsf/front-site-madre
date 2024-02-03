@@ -9,6 +9,14 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
+    screens:{
+      '2lg': '1200px',
+      'sm':'640px',
+      'md':	'768px',	
+      'lg':	'1024px',	
+      'xl':	'1280px',	
+      '2xl':	'1536px',
+    },
     extend: {
       animation: {
         fadeUp: 'fadeUp 2s ease forwards',

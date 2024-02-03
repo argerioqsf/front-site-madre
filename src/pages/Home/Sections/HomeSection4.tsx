@@ -4,8 +4,8 @@ import React from "react";
 const HomeSection4: React.FC = () => {
   return (
     <section className="bg-[#f7f7f7] flex flex-row justify-center items-start">
-      <div className="w-full flex flex-col justify-center items-center lg:items-top p-20 px-38 pb-0 max-w-screen-xl lg:flex-row">
-        <div className="w-4/5 lg:w-1/2 h-full pb-16 pr-10">
+      <div className="w-full flex flex-col justify-center items-center lg:items-top md:p-20 p-10 px-38 pb-0 max-w-screen-xl lg:flex-row">
+        <div className="w-full md:w-4/5 lg:w-1/2 h-full pb-16 pr-0 md:pr-10">
           <div className="pb-6 lg:pb-10">
             <h4 className="font-semibold text-[1.2em] text-[#001856]">
               VANTAGENS DE SER
