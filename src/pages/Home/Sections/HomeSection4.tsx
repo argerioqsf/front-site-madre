@@ -1,7 +1,7 @@
 import { Image } from "@nextui-org/image";
 import React from "react";
 
-const HomeSections4: React.FC = () => {
+const HomeSection4: React.FC = () => {
   return (
     <section className="bg-[#f7f7f7] flex flex-row justify-center items-start">
       <div className="w-full flex flex-col justify-center items-center lg:items-top p-20 px-38 pb-0 max-w-screen-xl lg:flex-row">
@@ -84,4 +84,4 @@ const HomeSections4: React.FC = () => {
   );
 };
 
-export default HomeSections4;
+export default HomeSection4;

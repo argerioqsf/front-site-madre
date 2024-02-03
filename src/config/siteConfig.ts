@@ -138,6 +138,64 @@ export const siteConfig = {
         "Oportunidade imperdível para ingressar na graduação e cursos técnicos com bolsas de até 100% do valor da mensalidade",
     },
   ],
+  cards_noticias_artigos: [
+    {
+      id: 1,
+      image:
+        "https://www.grupomadretereza.com.br/storage/images/cache/grupo-madre-tereza-recebe-6-comissao-do-mec-em-menos-de-2-anos-e-se-consolida-como-uma-das-melhores-faculdades-da-regiao-norte-550x412-786bbd15.png",
+      subTitle: "Graduação",
+      title:
+        "Grupo Madre Tereza recebe 6ª Comissão do MEC em menos de 2 anos e se consolida como uma das melhores faculdades da Região Norte",
+      describe:
+        "Instituição alcança reconhecimento com nota 4 em todas as avaliações, desde a autorização do curso de Direito até a renovação de reconhecimento, consolidando sua posição no cenário acadêmico",
+    },
+    {
+      id: 2,
+      image:
+        "https://www.grupomadretereza.com.br/storage/images/cache/grupo-madre-tereza-oferta-500-vagas-em-cursos-gratuitos-550x412-51e4a89f.jpg",
+      subTitle: "Curso Técnico",
+      title: "Grupo Madre Tereza Oferta 500 Vagas em Cursos Gratuitos",
+      describe:
+        "Grupo Madre Tereza e Programa Cidade Jovem Oferecem 500 Vagas em Cursos Gratuitos no Polo Marabaixo.",
+    },
+    {
+      id: 3,
+      image:
+        "https://www.grupomadretereza.com.br/storage/images/cache/atleta-da-faculdade-madre-tereza-se-destaca-na-copa-campos-judo-em-belem-pa-550x412-d3f5321a.jpg",
+      subTitle: "Grupo madre Tereza",
+      title:
+        "Atleta da Faculdade Madre Tereza se Destaca na Copa Campos Judô em Belém-PA",
+      describe: "Mais um destaque da Faculdade Madre Tereza.",
+    },
+    {
+      id: 4,
+      image:
+        "https://www.grupomadretereza.com.br/storage/images/cache/acesso-biblioteca-digital-550x412-c33e2ade.jpg",
+      subTitle: "Graduação",
+      title: "ACESSO BIBLIOTECA DIGITAL",
+      describe: "Minha Biblioteca Grupo Madre Tereza",
+    },
+    {
+      id: 5,
+      image:
+        "https://www.grupomadretereza.com.br/storage/images/cache/arraia-da-zona-sul-uma-festa-junina-imperdivel-para-toda-a-familia-madrinense-550x412-2978e7c2.jpg",
+      subTitle: "Curso Técnico",
+      title:
+        "ARRAIÁ DA ZONA SUL: Uma festa junina imperdível para toda a família madrinense",
+      describe:
+        "Danças, comidas típicas e diversão garantida no evento promovido pela Escola Técnica Madre Tereza",
+    },
+    {
+      id: 6,
+      image:
+        "https://www.grupomadretereza.com.br/storage/images/cache/grupo-madre-tereza-lanca-edital-do-concurso-de-bolsas-de-estudos-externa-para-o-ano-letivo-2023-550x412-b2168caa.png",
+      subTitle: "Grupo Madre Tereza",
+      title:
+        "Grupo Madre Tereza lança edital do Concurso de Bolsas de Estudos Externa para o ano letivo 2023",
+      describe:
+        "Oportunidade imperdível para ingressar na graduação e cursos técnicos com bolsas de até 100% do valor da mensalidade",
+    },
+  ],
   social: [
     {
       id: 1,

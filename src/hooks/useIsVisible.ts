@@ -9,7 +9,7 @@ export function useIsVisible(ref: MutableRefObject<any>) {
       if (entry.isIntersecting) observer.disconnect();
     });
 
-    observer.observe(ref.current);
+    observer?.observe(ref.current);
     return () => {
       observer.disconnect();
     };

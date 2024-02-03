@@ -1,28 +1,27 @@
 "use client";
 
-import { siteConfig } from "@/config/siteConfig";
-import { useRef } from "react";
-import { useIsVisible } from "@/hooks/useIsVisible";
 import CardDefault from "@/components/CardDefault";
 import HeaderSection from "@/components/HeaderSection";
+import { siteConfig } from "@/config/siteConfig";
+import { useIsVisible } from "@/hooks/useIsVisible";
+import { useRef } from "react";
 
-const HomeSection2 = () => {
-  const ref1 = useRef(null);
-  const isVisible1 = useIsVisible(ref1);
+const HomeSection6 = () => {
+  const ref2 = useRef(null);
+  const isVisible2 = useIsVisible(ref2);
   return (
     <section
       className={`flex bg-[#f7f7f7] transition-opacity ease-in duration-1000 flex-col items-center justify-start w-full pt-16 pb-16 opacity-0 ${
-        isVisible1 && "animate-fadeUp"
+        isVisible2 && "animate-fadeUp"
       }`}
     >
-      <HeaderSection subtitle="NOVIDADES & EVENTOS" title="ACONTECE NA MADRE" />
-
+      <HeaderSection subtitle="NOTÍCIASS & ARTIGOS" title="BLOG MADRE" />
       <div className="w-full px-8 pt-16">
         <div
-          ref={ref1}
+          ref={ref2}
           className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 lg:flex-row gap-8"
         >
-          {siteConfig.cards_novidades_eventos.map((card) => (
+          {siteConfig.cards_noticias_artigos.map((card) => (
             <CardDefault key={card.id} card={card} />
           ))}
         </div>
@@ -31,4 +30,4 @@ const HomeSection2 = () => {
   );
 };
 
-export default HomeSection2;
+export default HomeSection6;
