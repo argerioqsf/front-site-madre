@@ -160,8 +160,6 @@ export const siteConfig = {
       id: 1,
       icon: Users,
       title: "Educação Básica",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Font_Awesome_5_solid_users.svg/1279px-Font_Awesome_5_solid_users.svg.png",
       link: "/",
       subtitle:
         "Passou a ser estruturada por etapas, englobando a Educação Infantil, o Ensino Fundamental de nove anos e o Ensino Médio.",
@@ -170,8 +168,6 @@ export const siteConfig = {
       id: 2,
       title: "Cursos Técnicos",
       icon: UserCog,
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Font_Awesome_5_solid_user-cog.svg/1200px-Font_Awesome_5_solid_user-cog.svg.png",
       link: "/",
       subtitle:
         "É um nível de ensino enquadrado no nível médio dos sistemas educativos. Constitui uma modalidade de ensino profissional.",
@@ -180,8 +176,6 @@ export const siteConfig = {
       id: 3,
       title: "Graduação",
       icon: UserGraduate,
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Font_Awesome_5_solid_user-graduate.svg/1792px-Font_Awesome_5_solid_user-graduate.svg.png",
       link: "/",
       subtitle:
         "É a sua formação de nível superior. É nessa etapa que você irá entender, aprender e aprimorar as suas habilidades.",
@@ -190,8 +184,6 @@ export const siteConfig = {
       id: 4,
       title: "Pós Graduação",
       icon: UserTie,
-      image:
-        "https://icons.iconarchive.com/icons/fa-team/fontawesome/512/FontAwesome-User-Tie-icon.png",
       link: "/",
       subtitle:
         "Após concluir a graduação, você pode optar por uma especialização em um dos segmentos da sua área de atuação.",
