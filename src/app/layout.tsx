@@ -4,7 +4,6 @@ import { siteConfig } from "@/config/siteConfig";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/Navbar";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import Sociais from "@/components/Sociais";
 import Footer from "@/components/Footer";

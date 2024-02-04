@@ -1,5 +1,6 @@
 "use client";
 
+import ContainerSection from "@/components/ui/ContainerSection";
 import { siteConfig } from "@/config/siteConfig";
 import { Image } from "@nextui-org/image";
 
@@ -7,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const HomeSection1 = () => {
   return (
-    <section className="flex flex-col items-center justify-center w-full">
+    <ContainerSection classNameContainer="max-w-none">
       <div className="w-full">
         <Swiper
           autoplay={{
@@ -30,7 +31,7 @@ const HomeSection1 = () => {
           ))}
         </Swiper>
       </div>
-    </section>
+    </ContainerSection>
   );
 };
 
